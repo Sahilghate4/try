@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sahil's Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sahil's Store</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-grid">
+      <div class="product-card" onclick="showProduct('T-Shirt')">
+        <img src="https://via.placeholder.com/150" alt="T-Shirt">
+        <h3>Cool T-Shirt</h3>
+        <p>₹499</p>
+      </div>
+      <div class="product-card" onclick="showProduct('Sneakers')">
+        <img src="https://via.placeholder.com/150" alt="Sneakers">
+        <h3>Sneakers</h3>
+        <p>₹1,299</p>
+      </div>
+      <div class="product-card" onclick="showProduct('Headphones')">
+        <img src="https://via.placeholder.com/150" alt="Headphones">
+        <h3>Headphones</h3>
+        <p>₹799</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sahil's Store</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
